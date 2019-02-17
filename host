@@ -1,1 +1,1 @@
-dev ansible_ssh_hosts=3.17.13.163 ansible_ssh_user=root
+dev ansible_ssh_host=3.17.13.163 ansible_ssh_user=root
