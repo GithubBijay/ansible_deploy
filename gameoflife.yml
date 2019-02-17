@@ -12,6 +12,6 @@
           src: "{{ work }}/gameoflife-0.0.1.war"
           dest: "/root/tmp/gameoflife/gameoflife.war"
           mode: 0777
-          :
+          
     - name: deploy the gameoflife
       shell: "cd /root/tmp/gameoflife ; nohup java -jar gameoflife.war &"
