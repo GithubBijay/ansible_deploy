@@ -9,7 +9,7 @@
 
     - name: copy the file
       copy: 
-          src: "{{ works }}/gameoflife-0.0.1.war"
+          src: "{{ work }}/gameoflife-0.0.1.war"
           dest: "/root/tmp/gameoflife/gameoflife.war"
           mode: 0777
           :
